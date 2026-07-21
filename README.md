@@ -1,3 +1,5 @@
+# Learning in public. Building one skill at a time. 🚀
+
 # 🚀 AI-Powered Data Analytics Journey
 
 Welcome to my **AI-Powered Data Analytics Journey** repository.
@@ -128,6 +130,20 @@ AI-Powered-Data-Analytics-Journey
 - **Current Section:** Basic Python (AI Powered)
 
 I update this repository regularly as I learn new concepts and complete projects.
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is created for educational purposes to document my personal learning journey in Data Analytics.
+
+It contains **my own practice code, projects, assignments, and learning notes created by me**.
+
+**No paid course materials** (including videos, PDFs, PPTs, proprietary notes, or other copyrighted resources) are included in this repository.
+
+The learning concepts in this repository are inspired by my learning journey, but all uploaded code, practice work, and projects are my own.
+
+If any file is found to unintentionally violate copyright, please contact me, and it will be removed immediately.
 
 ---
 
