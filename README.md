@@ -124,7 +124,7 @@ AI-Powered-Data-Analytics-Journey
 
 # 📅 Progress Tracker
 
-- **Start Date:** 17 July 2026
+<!-- - **Start Date:** 02 July 2026 -->
 - **Current Section:** Basic Python (AI Powered)
 
 I update this repository regularly as I learn new concepts and complete projects.
