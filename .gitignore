@@ -1,10 +1,16 @@
-# Paid Course Material
+# Personal Notes
 All_notes/
+
+# Course Documents
+*.pdf
 *.ppt
 *.pptx
-*.pdf
+
+# Videos
 *.mp4
 *.mkv
+
+# Compressed Files
 *.zip
 *.rar
 
