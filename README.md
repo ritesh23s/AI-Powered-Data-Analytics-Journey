@@ -145,6 +145,12 @@ The learning concepts in this repository are inspired by my learning journey, bu
 
 If any file is found to unintentionally violate copyright, please contact me, and it will be removed immediately.
 
+## 📬 Contact
+
+- Email: theshubhlab@gmail.com
+- LinkedIn: https://linkedin.com/in/ritesh23s/
+- GitHub: https://github.com/ritesh23s
+
 ---
 
 # 📌 Note
