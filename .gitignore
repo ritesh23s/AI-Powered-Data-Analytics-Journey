@@ -1,0 +1,20 @@
+# Paid Course Material
+All_notes/
+*.ppt
+*.pptx
+*.pdf
+*.mp4
+*.mkv
+*.zip
+*.rar
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS Files
+Thumbs.db
+.DS_Store
