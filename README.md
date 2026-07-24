@@ -85,6 +85,7 @@ AI-Powered-Data-Analytics-Journey
 - ✅ Employee Analysis
 - ✅ Monthly Expense Tracker
 - ✅ Charts & Data Visualization
+- 🚧 Coming Soon
 
 ## Python Projects
 - ✅ Calculator- ⚠️ This calculator is created for learning purposes using only basic Python concepts (without if-else or advanced features)
