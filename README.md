@@ -87,7 +87,7 @@ AI-Powered-Data-Analytics-Journey
 - ✅ Charts & Data Visualization
 
 ## Python Projects
-
+- ✅ Calculator- ⚠️ This calculator is created for learning purposes using only basic Python concepts (without if-else or advanced features)
 - 🚧 Coming Soon
 
 ## SQL Projects
