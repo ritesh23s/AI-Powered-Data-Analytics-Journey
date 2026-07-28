@@ -23,8 +23,8 @@ print("02). Logical OR Operator")
 A = 12
 B = 6
 print(A < B or A / B == 2)
-print(A < B or 12 < 6)
-print(A / B == 2 or 12 / 6 == 2)
+print(A > B or A % B == 0)
+print(A / B == 1 or A // B == 1)
 
 print("Q 01).")
 # Q 01).Write a Python program to check whether a student has passed in at least one subject using the Logical OR (or) operator.

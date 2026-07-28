@@ -2,7 +2,7 @@
 
 
 print("03). Logical NOT Operator")
-# 03). Logical NOT (not) Operator - It reversr the result. Returns false if the result is True, and Returns true if result is False.
+# 03). Logical NOT (not) Operator - It reverse the result. Returns false if the result is True, and Returns true if result is False.
 
 # Its returns always reverse value of any expression and its work on single expression.
 
