@@ -116,11 +116,19 @@ AI-Powered-Data-Analytics-Journey
 
 ## Python
 
+## Python
+
 - Variables
 - Data Types
 - Type Conversion
 - User Input
 - Operators
+- Operator Precedence
+- String
+- String Methods
+- String Slicing
+- String Concatenation
+- f-Strings
 - *(More Coming Soon...)*
 
 ---
