@@ -22,8 +22,7 @@ print(city)
 # Siwan
 
 # Note:
-# The number of variables must match
-# the number of elements in the tuple.
+# The number of variables must match the number of elements in the tuple.
 
 # Example:
 # 02).
@@ -39,3 +38,9 @@ print(item3)
 # pen
 # book
 # mouse
+
+ites_details = ("apple", "bat", 2026)
+fruit, cricket, year = ites_details
+print(fruit)
+print(cricket)
+print(year)
