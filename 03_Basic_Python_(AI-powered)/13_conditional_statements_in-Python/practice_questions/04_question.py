@@ -42,6 +42,7 @@
 
 account_status = input("Enter account status (active or inactive): ")
 account_status = account_status.strip().lower() == "active"
+
 if not account_status:
     print("Account Inactive")
 else:
@@ -50,18 +51,19 @@ else:
     user_age = int(input("Please enter your age: "))
 
     if user_country == "india" and user_age >= 18:
+
         transaction_amount = float(input("Enter amount: "))
 
         if transaction_amount <= 50000:
             print("Transaction Approved")
-        elif transaction_amount > 50000:
+        else:
             if user_age >= 60:
                 print("Transaction Approved with Verification")
             else:
                 print("Transaction Requires Verification")
     elif user_country == "india" and user_age < 18:
         print("Minor Account - Transaction Not Allowed")
-    elif user_country != "india":
+    else:
         transaction_amount = float(input("Enter amount: "))
         if transaction_amount <= 10000:
             print("International Transaction Approved")

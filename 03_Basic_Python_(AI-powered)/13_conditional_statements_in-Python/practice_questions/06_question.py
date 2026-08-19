@@ -32,3 +32,25 @@
 #
 #       Otherwise:
 #           Print "Not Eligible"
+
+
+# Solution
+account_status = input("Enter account status (active or inactive): ")
+account_status = account_status.strip().lower() == "active"
+
+if not account_status:
+    print("Offer Not Available")
+else:
+    country = input("Enter your country: ")
+    country = country.strip().lower() == "india"
+
+    user_age = int(input("Please enter your age: "))
+
+    membership = input("Enter membership type premium or regular: ")
+    membership = membership.strip().lower()
+
+    if (country and user_age >= 18) or (membership == "premium" and user_age >= 21):
+        print("Special Offer Available")
+    else:
+        print("Not Eligible")
+

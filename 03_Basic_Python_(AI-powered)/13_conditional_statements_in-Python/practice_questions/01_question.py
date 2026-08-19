@@ -33,12 +33,13 @@ student_country = student_country.strip().lower() == "india"
 student_status = input("You are a student ? (yes/no): ")
 student_status = student_status.strip().lower() == "yes"
 
-if student_country and student_age >= 18:
-    if student_status:
-        print("Student Access")
+if student_country:
+    if student_age >= 18:
+        if student_status:
+            print("Student Access")
+        else:
+            print("Adult Access")
     else:
-        print("Adult Access")
-elif student_country and student_age < 18:
-    print("Minor Access")
-elif not student_country:
+        print("Minor Access")
+else:
     print("International Access")

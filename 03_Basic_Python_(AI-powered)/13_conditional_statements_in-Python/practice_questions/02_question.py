@@ -27,14 +27,16 @@
 
 student_marks = int(input("Enter your marks: "))
 attendance_percentage = int(input("Enter your attendance percentage: "))
-if student_marks >= 40 and attendance_percentage >= 75:
-    if student_marks >= 90:
-        print("Excellent")
-    elif student_marks >= 60:
-        print("Good")
-    else:
-        print("Pass")
-elif student_marks >= 40 and attendance_percentage < 75:
-    print("Attendance Shortage")
+
+if student_marks >= 40:
+    if attendance_percentage >= 75:
+        if student_marks >= 90:
+            print("Excellent")
+        elif student_marks >= 60:
+            print("Good")
+        else:
+            print("Pass")
+    else: 
+        print("Attendance Shortage")
 else:
     print("Fail")
