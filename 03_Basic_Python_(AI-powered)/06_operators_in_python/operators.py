@@ -1,5 +1,7 @@
 # ********************************** OPERATORS **********************************
-# Operators - Operators are special symbols in python that perform specific operations on one or more operands (values or variables). They are fundamental to programming because they allow you to manipulate data, make decisions, and control program flow.
+# Operators - Operators are special symbols in python that perform specific operations on one or more operands (values or variables). 
+
+# They are fundamental to programming because they allow you to manipulate data, make decisions, and control program flow.
 
 # In simple words + , -, *, / are operators
 # Example 
@@ -41,7 +43,7 @@ print(X / Y)
 
 
 # Why they matters ? 
-# - Every calculation, comparison, or logical decision in python relies on operators working correctly
+# Every calculation, comparison, or logical decision in python relies on operators working correctly
 
 
 # ***************** THERE ARE MULTIPLE CATEGORIES OF OPERATORS *****************

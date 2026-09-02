@@ -7,6 +7,7 @@
 # Example:
 # 01).
 text = "Python"
+print("The string is:", text)
 
 # ACCESSING CHARACTER OF THIS STRING
 print("text[0] is: ", text[0])

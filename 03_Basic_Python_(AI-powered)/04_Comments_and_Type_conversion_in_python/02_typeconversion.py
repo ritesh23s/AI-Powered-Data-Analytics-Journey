@@ -8,9 +8,9 @@ age =int(age)  #it convert into integer. now we perform calculation on it
 print(type(age))
 
 
-# 02). Converting String to Float - Decimal values are converted using Float(). This is commonly used for prices, ratings, and averages.
+# 02). Converting Sloat to String - Decimal values are converted using Float(). This is commonly used for prices, ratings, and averages.
 price = 2565.234
-price = str(price)  #it convert inti string
+price = str(price)  #it convert into string
 print(type(price))
 
 
@@ -27,7 +27,8 @@ print(type(message))
 # Not every string can be converted into a number 
 
 value = "454abc"
-# int(value)                               #here if we convert value into integer we get error - "ValueError: invalid literal for int() with base 10: '454abc'"
+# int(value)                               
+# #here if we convert value into integer we get error - "ValueError: invalid literal for int() with base 10: '454abc'"
 print(type(value))
 
 # This will cause an error - Always vakidate your data before converting it. Later, we will handle such cases using error handling

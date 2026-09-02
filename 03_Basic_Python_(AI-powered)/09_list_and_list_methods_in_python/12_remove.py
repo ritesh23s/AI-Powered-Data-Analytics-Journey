@@ -27,8 +27,9 @@ print(numbers)
 # Output:
 # [10, 30, 20, 40]
 
-# Note: Only the first occurrence of 20 is removed.
+# Here: Only the first occurrence of 20 is removed.
 
 # Note:
 # The remove() method modifies the original list.
 # It removes only the first occurrence of the given value.
+# If given argument(specified value) not persents in list it will cause an error.

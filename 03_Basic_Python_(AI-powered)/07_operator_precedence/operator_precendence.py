@@ -10,6 +10,7 @@
 # Step 2. **       → Exponent (Power Operator)
 # Step 3. *, /, //, % → Multiplication, Division, Floor Division, Modulus
 #                      (All have equal priority and are evaluated from left to right.)
+
 # Step 4. +, -     → Addition, Subtraction
 #                    (Both have equal priority and are evaluated from left to right.)
 

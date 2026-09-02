@@ -1,6 +1,8 @@
 # ******************************** ASSIGNMENT OPERATORS ********************************
 # Assignment Operators - Assignment operators are used to assign values to variable
-# Assignment operators are used to assign to variables. compound assignment operators combine an arithmetic operator with assignment. making code concise
+# Assignment operators are used to assign value to variables compound 
+# assignment operators combine an arithmetic operator with assignment. 
+# making code concise
 
 
 # **************** There are following types of Assignment Operators **************

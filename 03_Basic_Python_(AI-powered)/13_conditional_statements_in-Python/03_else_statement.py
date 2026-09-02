@@ -1,6 +1,7 @@
 # *************** ELSE STATEMENT ***************
 
 # else: The else block runs when the if condition is False.
+# if and else both are use together
 
 # Syntax:
 # if condition:

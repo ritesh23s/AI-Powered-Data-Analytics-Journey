@@ -7,7 +7,7 @@ b = 3
 # 01). Equal to ( == ) - It returns true if both operands are equal. otherwise returns False
 # Example - 
 print("01). Equal to ( == )")
-print(a == b);
+print(a == b)
 
 print("")
 

@@ -1,4 +1,4 @@
-# ******************************** ARITHMETIC OPERATORS ********************************
+# ****************************** ARITHMETIC OPERATORS ******************************
 # Arithmetic Operators  - Arthemetic operator are used to perform mathematical calculation
 
 a = 20

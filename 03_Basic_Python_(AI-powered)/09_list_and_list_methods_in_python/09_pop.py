@@ -1,6 +1,7 @@
 # ******************** POP() LIST METHOD ********************
 
 # pop(): It is used to remove and return an element from a list.
+
 # If an index is provided, it removes the element at that index.
 # If no index is provided, it removes the last element.
 

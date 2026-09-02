@@ -2,6 +2,7 @@
 
 # elif: elif stands for "else if".
 # It is used to check multiple conditions one by one.
+# if and elif both together and also else
 
 # Syntax:
 # if condition:
