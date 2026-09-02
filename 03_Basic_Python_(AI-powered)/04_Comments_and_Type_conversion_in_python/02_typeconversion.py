@@ -8,7 +8,7 @@ age =int(age)  #it convert into integer. now we perform calculation on it
 print(type(age))
 
 
-# 02). Converting Sloat to String - Decimal values are converted using Float(). This is commonly used for prices, ratings, and averages.
+# 02). Converting Float to String - Decimal values are converted using Float(). This is commonly used for prices, ratings, and averages.
 price = 2565.234
 price = str(price)  #it convert into string
 print(type(price))
