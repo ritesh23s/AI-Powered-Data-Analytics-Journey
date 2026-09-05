@@ -17,7 +17,8 @@
 # "element" represents one item/value from the given variable.
 
 # Example:
-# 01). for loop with list.
+
+# ************** 01). for loop with list. **************
 items = ["mango", "banana", "cherry", "pen", "books", 25]
 for item in items:
     print(item)
@@ -30,7 +31,9 @@ for item in items:
 # books
 # 25
 
-# 02). for loop with string.
+
+
+# ************** 02). for loop with string. **************
 name = "SHUBHAM"
 for letter in name:
     print(letter)
@@ -44,7 +47,10 @@ for letter in name:
 # A
 # M
 
-# 03). for loop with tuple.
+
+
+
+# ************** 03). for loop with tuple. **************
 details = ("Shubham", "MPU", 2026, "2023 to 2027")
 for element in details:
     print(element)
@@ -55,7 +61,10 @@ for element in details:
 # 2026
 # 2023 to 2027
 
-# 04). for loop with sets.
+
+
+
+# ************** 04). for loop with sets. **************
 marks = {23, 20, 56, 45, "shubham"}
 for elmnt in marks:
     print(elmnt)
@@ -77,7 +86,7 @@ for n in num:
 # 56
 # 10
 # 12
-# 45 here It remove dublicates values and return it.
+# 45    #here It remove dublicates values and return it.
 
 
 # Note:

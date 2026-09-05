@@ -48,6 +48,8 @@ for i in range(5):
 
 
 
+
+
 # ************* 02). range() with starting and ending_value: *************
 # In the range() with starting and ending value we decide range using
 # starting_value and ending_value
@@ -75,6 +77,7 @@ for i in range(1, 8):
 
 
 
+
 # ********** 03). range() with starting , ending_value and step_value: **********
 # In the range() with starting, ending and step_value we can decide range using
 # start_value, end_value and step_value
@@ -97,4 +100,31 @@ for i in range(0, 10, 2):
 # 2
 # 4
 # 6
-# 8     # It prints number from 0 to 10 with a step of 2 
+# 8     # It prints number from 0 to 10 with a step of 2
+        # and stops before 10 (here 10 is not included).
+        
+
+# **************** Practice Question ****************
+# Question_01
+# Print all odd numbers between 1 to 20.
+
+count_number = 1 
+for i in range(1, 20, 2):
+    print(f"{count_number} odd number:", i)
+    count_number += 1
+
+# Question_02
+# Print all even numbers between 2 to 20.
+
+number_count = 1
+for i in range(2, 20, 2):
+    print(f"{number_count} even number:", i)
+    number_count += 1
+
+# Question_03
+# Print table of a number using user input help with for loop
+
+num = int(input("Please enter number to print table:"))
+print("Table of", num)
+for i in range(1, 11):
+    print(f"{i} X {num} = {i*num}")
