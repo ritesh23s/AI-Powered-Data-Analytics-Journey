@@ -105,15 +105,30 @@ for i in range(0, 10, 2):
         
 
 # **************** Practice Question ****************
-# Question_01
+
+# ************* Question_01 *************
 # Print all odd numbers between 1 to 20.
 
 count_number = 1 
 for i in range(1, 20, 2):
     print(f"{count_number} odd number:", i)
     count_number += 1
+# Output:
+# 1 odd number: 1
+# 2 odd number: 3
+# 3 odd number: 5
+# 4 odd number: 7
+# 5 odd number: 9
+# 6 odd number: 11
+# 7 odd number: 13
+# 8 odd number: 15
+# 9 odd number: 17
+# 10 odd number: 19
 
-# Question_02
+
+
+
+# ************* Question_02 *************
 # Print all even numbers between 2 to 20.
 
 number_count = 1
@@ -121,7 +136,20 @@ for i in range(2, 20, 2):
     print(f"{number_count} even number:", i)
     number_count += 1
 
-# Question_03
+# Output:
+# 1 even number: 2
+# 2 even number: 4
+# 3 even number: 6
+# 4 even number: 8
+# 5 even number: 10
+# 6 even number: 12
+# 7 even number: 14
+# 8 even number: 16
+# 9 even number: 18
+
+
+
+# ************* Question_03 *************
 # Print table of a number using user input help with for loop
 
 num = int(input("Please enter number to print table:"))
