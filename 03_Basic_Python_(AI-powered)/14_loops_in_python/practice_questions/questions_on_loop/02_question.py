@@ -1,6 +1,6 @@
 # *********************** PRACTICE QUESTION ***********************
 
-# Question: 03).
+# Question: 02).
 # A bank wants to analyze customer transactions.
 # The program should accept transaction amounts one by one
 # until the user enters 0 to stop the input.

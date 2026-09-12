@@ -1,6 +1,6 @@
 # *********************** PRACTICE QUESTION ***********************
 
-# Question: 02).
+# Question: 01).
 # Write a Python program to process the marks of students one by one.
 # The program should continue accepting marks until the user enters -1.
 
