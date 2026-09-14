@@ -1,7 +1,7 @@
 # Personal Notes
 All_notes/
 python_tips_and_tricks/
-abc.py/
+
 
 # Course Documents
 *.pdf
@@ -26,3 +26,6 @@ __pycache__/
 # OS Files
 Thumbs.db
 .DS_Store
+
+# Additional files
+abc.py
