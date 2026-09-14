@@ -27,5 +27,4 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
-# Additional files
 abc.py
