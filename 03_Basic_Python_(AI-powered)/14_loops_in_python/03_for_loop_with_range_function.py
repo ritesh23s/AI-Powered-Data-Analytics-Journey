@@ -10,6 +10,7 @@
 # for iterable in range(starting_value, ending_value, step_value):
 #     do something
 
+
 # Here:
 # starting_value: The value from where the sequence starts.
 
@@ -45,8 +46,9 @@ for i in range(5):
 # 1
 # 2
 # 3
-# 4     # It prints 0 to 4 because the sequence starts from 0 by default, and  
-        # increments by 1 (by default), and stops before a specified range value
+# 4     
+        # It prints 0 to 4 because the sequence starts from 0 by default, and  
+        # increments by 1 (by default), and stops before a specified range value which is given 5.
 
 
 
@@ -72,9 +74,10 @@ for i in range(1, 8):
 # 4
 # 5
 # 6
-# 7     # It print 1 to 7 because starting_value is 1 and ending_value is 8,
-        # so sequence starts from 1 and increment by default 1 and the
-        # ending_value is 8 which not included
+# 7     
+    # It print 1 to 7 because starting_value is 1 and ending_value is 8,
+    # so sequence starts from 1 and increment by default 1 and the
+    # ending_value is 8 which not included
 
 
 

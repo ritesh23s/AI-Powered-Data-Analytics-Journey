@@ -1,5 +1,5 @@
 # *********************** LOOPS IN PYTHON ***********************
-# Loops are used to execute a block of code multiole lines.
+# Loops are used to execute a block of code multiple lines.
 # They help reduce repetition and make programs more efficient.
 
 # Python mainly provides Two types of loops

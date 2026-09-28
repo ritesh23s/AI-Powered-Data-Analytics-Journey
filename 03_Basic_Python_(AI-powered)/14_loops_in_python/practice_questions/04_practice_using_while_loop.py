@@ -28,6 +28,7 @@ while idx < len(lst):
 
 
 # ********** Questions 02 **********
+print("Questions 02")
 # Search for a number x in this tuple using while loop.
 # tpl = (1, 4, 9, 16, 25, 36, 49, 16, 81, 100, 16, 10)
 # x = 16
@@ -36,9 +37,8 @@ tpl = (1, 4, 9, 16, 25, 36, 49, 16, 81, 100, 16, 10)
 x = 16
 indx = 0
 while indx < len(tpl):
-    print("finding..")
     if tpl[indx] == x:
         print(f"{x} is founded at index", indx)
     else:
-        print("finding")
+        print("finding at index", indx)
     indx += 1

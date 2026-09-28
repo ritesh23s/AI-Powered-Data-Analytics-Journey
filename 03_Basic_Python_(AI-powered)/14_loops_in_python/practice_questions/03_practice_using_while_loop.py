@@ -33,6 +33,8 @@ while y <= 10:
     print(f"{num} x {y} = {num*y}")
     y += 1
 
+print("Table in reverse way: ")
+# Reverse table printing using while loop
 rev_num = int(input("Please enter number to print table in reverse way:"))
 z = 10
 while z >= 1:

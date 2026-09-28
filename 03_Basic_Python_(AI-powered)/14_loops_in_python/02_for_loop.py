@@ -86,7 +86,7 @@ for n in num:
 # 56
 # 10
 # 12
-# 45    #here It remove dublicates values and return it.
+# 45    #here It firstly removes dublicates values and return it.
 
 
 # Note:

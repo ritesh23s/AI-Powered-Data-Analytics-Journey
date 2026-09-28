@@ -166,4 +166,4 @@ if len(arrival_records) > 0:
 else:
     print("No valid attendance records available")
 
-# "In this code multiple bogs i think fix it again after some time"
+# "In this code multiple bugs persents i have to fix it again after some time"

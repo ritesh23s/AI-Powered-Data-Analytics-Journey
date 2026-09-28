@@ -6,7 +6,7 @@
 
 # Syntax:
 
-# variable_name = initial_value
+# variable_name(iterator) = initial_value
 # while condition:
 #     do something
 #     update variable

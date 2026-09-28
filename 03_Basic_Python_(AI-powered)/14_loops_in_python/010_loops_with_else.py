@@ -3,6 +3,7 @@
 
 # We can use for loop with else statement to continue our work 
 # when loop is ended
+# this else is optional for used.
 
 # Syntax:
 # for element in variable_name:
@@ -22,3 +23,13 @@ for n in items:
     print(n)
 else:
     print("loop ended")
+
+
+# 02).
+nums = [1, 5, 4, 45, 23, 78]
+i = 0
+while i < len(nums):
+    print(nums[i])
+    i += 1
+else:
+    print("loop end..")
