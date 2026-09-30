@@ -42,3 +42,17 @@ while indx < len(tpl):
     else:
         print("finding at index", indx)
     indx += 1
+
+# Output:
+# finding at index 0
+# finding at index 1
+# finding at index 2
+# 16 is founded at index 3
+# finding at index 4
+# finding at index 5
+# finding at index 6
+# 16 is founded at index 7
+# finding at index 8
+# finding at index 9
+# 16 is founded at index 10
+# finding at index 11
