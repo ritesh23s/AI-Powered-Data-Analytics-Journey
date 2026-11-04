@@ -5,7 +5,7 @@
 # It returns a Boolean value:
 # True or False
 
-# If the element is found, it returns True.
+# If the element is founded, it returns True.
 # Otherwise, it returns False.
 
 # Syntax:

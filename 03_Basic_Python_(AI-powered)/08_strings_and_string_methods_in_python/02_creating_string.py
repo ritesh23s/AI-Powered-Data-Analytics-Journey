@@ -7,3 +7,4 @@ city = 'Siwan'
 # both form "" and '' work the same way
 
 print(name, "and" , city)
+# Output: Shubham and Siwan

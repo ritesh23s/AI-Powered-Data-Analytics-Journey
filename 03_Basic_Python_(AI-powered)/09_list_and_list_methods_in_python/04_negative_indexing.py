@@ -1,7 +1,8 @@
 # ***************** NEGATIVE INDEXING *****************
 
 # Negative Indexing: Negative indexes are used to access elements from the end of the list.
-# Negative indexing starts from -1.
+# Negative indexing starts from -1. and -1 is repersents the index of last element
+# of a list.
 
 # Syntax:
 # variable_name[-index]

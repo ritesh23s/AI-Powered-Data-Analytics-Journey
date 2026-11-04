@@ -8,7 +8,7 @@ age = 25
 # 25 is the value store inshide it
 
 
-# print(age)
+print(age)
 
 # Note -
 # 1. Key rules for variable - A variable name always start with a letter or (_) underscore, never with a number 

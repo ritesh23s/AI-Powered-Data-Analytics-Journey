@@ -6,7 +6,9 @@
 # variable_name.find("given_value")
 
 # Rules:
-# If the given value is found, the find() method returns the index of its first occurrence.
+# If the given value is founded, the find() method returns the 
+# index of it's first occurrence.
+
 # It returns -1 if the given value is not found in the string.
 
 # Example:

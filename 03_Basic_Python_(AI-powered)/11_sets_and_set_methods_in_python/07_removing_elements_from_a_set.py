@@ -2,6 +2,7 @@
 # ******************** REMOVE() SET METHOD ********************
 
 # remove(): It is used to remove a specified element from a set.
+
 # It raises a KeyError if the specified element does not exist in the set.
 
 # Syntax:
@@ -18,6 +19,7 @@ print(items)
 # Possible Output:
 # {'mango', 'apple', 2026, 'pen'}
 
+# If we provide multiple argument for removes element of a set
 items.remove("pen", "mango")
 # Possible Output: TypeError: set.remove() takes exactly one argument (2 given)
 

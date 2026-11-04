@@ -27,9 +27,9 @@
 
 # Example:
 # 01).
-def welcom():
+def welcome():
     print("Hello!! You are most welcome!")
-welcom()
+welcome()
 # Output:
 # Hello!! You are most welcome!
 

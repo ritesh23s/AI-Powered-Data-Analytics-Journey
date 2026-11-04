@@ -12,3 +12,4 @@ text = "Python"
 # text[0] = "Y"      # This will cause an error.
 
 print(text)
+# Output: Python

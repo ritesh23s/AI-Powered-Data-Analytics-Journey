@@ -36,5 +36,6 @@ print(fruits)
 # Note:
 # The sort() method modifies the original list.
 # By default, it sorts the list in ascending order.
+
 # All elements should be of compatible data types.
 # Otherwise, the sort() method raises a TypeError.

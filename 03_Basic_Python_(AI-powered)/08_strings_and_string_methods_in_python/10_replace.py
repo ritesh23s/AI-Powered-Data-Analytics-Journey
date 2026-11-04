@@ -17,3 +17,9 @@ print("Replaced String:", after_replace)
 # Note:
 # The replace() method returns a new string.
 # It does not modify the original string because strings are immutable.
+
+
+# If given value is not found in string then it return complete string
+not_found = text.replace("Shubh", "Python")
+print("Not found value:", not_found)
+# Output: Not found value: I like Java

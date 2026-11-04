@@ -76,7 +76,7 @@ print(len(items))
 
 # ******************** 02). sorted(): FUNCTION ********************
 # sorted(): It is used to short a tupple as a list.
-# it returns a new list of tuple after sorted
+# it returns a new list of a tuple after sorted
 
 # for string case:
 # It sorted as A to Z

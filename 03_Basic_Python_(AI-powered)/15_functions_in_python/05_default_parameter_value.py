@@ -35,10 +35,8 @@ print(full_name)
 full_name = name("Aman", "Yadav")
 print(full_name)
 
-
 # Output:
 # Hello..! Aman Yadav
-
 
 # Here, we provided "Aman" and "Yadav" as arguments.
 # So, 
@@ -46,6 +44,7 @@ print(full_name)
 
 
 # Example 02).
+# calculate the average of two numbers
 def average(a = 1, b = 1):
     return (a+b)/2
 avg = average()
@@ -62,6 +61,7 @@ print(another_avg)
 
 # Output:
 # 28.5
+
 
 # note:
 # 01). whenever we provide a default value for function parameter we should

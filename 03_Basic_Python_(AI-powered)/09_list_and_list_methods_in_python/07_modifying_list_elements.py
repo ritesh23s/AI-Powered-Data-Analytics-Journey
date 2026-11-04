@@ -19,7 +19,7 @@ print("Modified List:", items)
 # ['bat', 'ball', 'wicket']
 
 # Note:
-# len(items) - 1 always returns the index of the last element.
+# "len(items) - 1" always returns the index of the last element.
 
 # 02).
 items_01 = ["bat", "ball", "mobile"]

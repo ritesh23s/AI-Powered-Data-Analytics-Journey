@@ -3,12 +3,11 @@
 # f-string: It is used to insert variables or expressions into a string
 # in an easy and readable way.
 
-# It was introduced in Python 3.6.
+# It was introduced in Python 3.6 version
 
 # To use an f-string,
 # add the letter f before the string
-# and place variables or expressions
-# inside curly braces {}.
+# and place variables or expressions inside curly braces {}.
 
 # Syntax:
 # f"text {variable_or_expression}"

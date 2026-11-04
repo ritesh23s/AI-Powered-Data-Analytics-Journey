@@ -8,3 +8,4 @@
 
 # Example:
 print("Shubham")
+# Output: Shubham

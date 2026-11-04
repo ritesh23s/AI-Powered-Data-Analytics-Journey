@@ -1,8 +1,8 @@
 # *************** STRING ***************
 # *************** STRING AND ACCESSING CHARACTER IN A STRING ***************
-# String Indices (index)= A sting index is the number used to identify the position of each character in a string.
+# String Indices(index): A sting index is the number used to identify the position of each character in a string.
 
-# Note - Indexing is always starts from 0
+# Note: Indexing is always starts from 0
 
 # Example: 
 # 01).
@@ -38,5 +38,5 @@ print("Example: 02).", name)
 # name[7]; = " " (space)
 # name[10]; = "d"
 print("name[0] = " , name[0])
-print("name[7] = " , name[7])       # Space clearly dikhega
+print("name[7] = " , name[7])       # Space clearly show here
 print("name[10] = " , name[10])

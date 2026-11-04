@@ -21,8 +21,7 @@ print("Datatype of person:", type(person))
 
 # Note:
 # Python automatically creates a tuple
-# when multiple values are assigned to a single variable
-# using commas.
+# when multiple values are assigned to a single variable using commas.
 
 
 

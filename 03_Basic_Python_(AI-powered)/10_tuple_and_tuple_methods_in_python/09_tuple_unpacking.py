@@ -44,3 +44,7 @@ fruit, cricket, year = ites_details
 print(fruit)
 print(cricket)
 print(year)
+# Output:
+# apple
+# bat
+# 2026

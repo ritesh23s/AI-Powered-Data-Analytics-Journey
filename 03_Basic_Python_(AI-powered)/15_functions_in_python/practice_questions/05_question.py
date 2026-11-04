@@ -18,3 +18,4 @@ def check(check_num):
 result = check(num)
 
 print(result)
+

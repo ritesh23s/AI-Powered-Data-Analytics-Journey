@@ -20,6 +20,7 @@ print(items)
 # Note:
 # The extend() method modifies the original list.
 # It adds all elements one by one from another list.
+# The .extend() method always tales only one argument.
 
 # ******************** append() vs extend() ********************
 
@@ -39,3 +40,8 @@ items2.extend(more_items)
 print(items2)
 # Output:
 # ['apple', 'mango', 'orange', 'banana']
+
+# Important to understand that 
+# 01. .apend() method add the whole list as an element of parent list at the last.
+# 02. .extend() method add the valus of list as elements of parent list at the last
+# index one by one.
