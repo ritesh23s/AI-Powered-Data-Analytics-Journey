@@ -2,6 +2,7 @@
 # ******************** ITEMS() METHOD ********************
 
 # items(): It is used to get all the key-value pairs of a dictionary.
+
 # Each key-value pair is returned as a tuple.
 
 # Syntax:
@@ -32,3 +33,7 @@ print(student.items())
 # Here, items() returns all the key-value pairs
 # of the "student" dictionary.
 # Each key-value pair is represented as a tuple.
+
+print(type(student.items()))
+# Output:
+# <class 'dict_items'>

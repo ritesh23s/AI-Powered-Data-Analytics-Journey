@@ -24,7 +24,7 @@ print("Original dictionary:", employee)
 # ******************** ADDING A NEW KEY-VALUE PAIR ********************
 
 # We can add a new key-value pair
-# by using a new key.
+# by using a new key and its value.
 
 employee["age"] = 23
 
@@ -59,4 +59,5 @@ print("After updating the existing key-value pair:", employee)
 # Note:
 # If the key already exists, its value is replaced
 # with the new value.
-# If the key does not exist, a new key-value pair is added.
+
+# If the key does not exist, a new key-value pair is added to the end of dictionary.

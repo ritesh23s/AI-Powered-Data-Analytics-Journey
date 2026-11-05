@@ -32,3 +32,6 @@ print("After adding key-value pairs:", address)
 # After adding key-value pairs:
 # {'village': 'Kachnar', 'pin_code': 841210,
 #  'police_station': 'Siswan', 'district': 'Siwan', 'state': 'Bihar'}
+
+# Note:
+# Always write key-value pairs inside a curly brackets while using the update function

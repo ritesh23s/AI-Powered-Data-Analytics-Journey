@@ -57,3 +57,43 @@ print(car['name'])
 
 # Without quotes, Python treats "name" as a variable,
 # not as the dictionary key.
+
+
+# Example:
+# 02).
+motercycle_details = dict(
+    name = "Himalyan 450", 
+    brand_name = "royal enfield",
+    variant = "hanle black",
+    onroad_price = 376701,
+    city = "siwam",
+    kerb_weight = "196kg",
+    tyre_type = "tubed",
+    wheel_type = "spoke wheel",
+    engine_name = "Sherpa 450",
+    engine_cc = "451.65cc"
+)
+
+print(motercycle_details["name"])
+# Output:
+# Himalyan 450
+
+print(motercycle_details["brand_name"])
+# Output:
+# royal enfield
+
+print(motercycle_details["variant"])
+# Output:
+# hanle black
+
+print(motercycle_details["wheel_type"])
+# Output:
+# spoke wheel
+
+print(motercycle_details["kerb_weight"])
+# Output:
+# 196kg
+
+print(motercycle_details["engine_cc"])
+# Output:
+# 451.65cc

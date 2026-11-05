@@ -61,3 +61,7 @@ print("Number of posts:", user_details["profile_details"]["content"]["post"])
 
 # Output:
 # Number of posts: 45
+
+print("Number of reposts:", user_details["profile_details"]["content"]["reposts"])
+# Output:
+# Number of reposts: 15

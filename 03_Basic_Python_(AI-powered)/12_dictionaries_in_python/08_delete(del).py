@@ -2,7 +2,7 @@
 # ******************** DEL KEYWORD ********************
 
 # del: It is used to delete a specified key-value pair
-# from a dictionary.
+# from a dictionary by using key name of the dictionary.
 
 # Syntax:
 # del variable_name["key"]

@@ -1,6 +1,7 @@
 # ******************** NESTED DICTIONARIES ********************
 
 # A dictionary can contain another dictionary as a value.
+
 # A dictionary inside another dictionary is called
 # a nested dictionary.
 

@@ -37,3 +37,7 @@ print("After clearing the dictionary:", student)
 
 print(student)
 # Output: {}
+
+print(type(student))
+# Output:
+# <class 'dict'>

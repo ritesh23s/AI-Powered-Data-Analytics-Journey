@@ -32,3 +32,7 @@ student = {
         "city": "Siwan"
     }
 }
+
+# print(student)
+# Output:
+# {'name': 'Shubham', 'age': 23, 'skills': ['Python', 'JavaScript'], 'address': {'city': 'Siwan'}}

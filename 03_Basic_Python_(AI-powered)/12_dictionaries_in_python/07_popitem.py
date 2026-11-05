@@ -4,6 +4,8 @@
 # popitem(): It is used to remove and return
 # the last inserted key-value pair from a dictionary.
 
+# Its always returns the removed key-value pair as a tuple.
+
 # Syntax:
 # variable_name = dictionary_name.popitem()
 
@@ -30,6 +32,9 @@ print("Removed item:", removed_item)
 # Possible Output:
 # Removed item: ('email', 'hemant@google.com')
 
+# Note:
+# It returns the removed key-value pair as a tuple.
+
 
 print("After popitem():", employee)
 # Output:
@@ -39,4 +44,3 @@ print("After popitem():", employee)
 # Note:
 # The popitem() method modifies the original dictionary.
 # It removes the last inserted key-value pair.
-# It returns the removed key-value pair as a tuple.

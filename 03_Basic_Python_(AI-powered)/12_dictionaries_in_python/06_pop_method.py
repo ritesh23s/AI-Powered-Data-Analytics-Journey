@@ -5,7 +5,7 @@
 # from a dictionary and return the removed value.
 
 # Syntax:
-# variable_name = dictionary_name.pop("key")
+# variable_name = dictionary_name.pop("key_name")
 
 # Example:
 # 01).
@@ -38,5 +38,6 @@ print("After removing the email:", employee)
 # The pop() method modifies the original dictionary.
 # It removes the specified key-value pair.
 # It returns the value of the removed key.
+
 # If the specified key does not exist,
 # pop() raises a KeyError.
