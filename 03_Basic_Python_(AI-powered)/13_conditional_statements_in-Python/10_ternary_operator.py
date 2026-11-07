@@ -31,18 +31,18 @@ print(status)
 # Question: 01).
 # Given an integer number, determine whether the number is
 # even or odd using a conditional expression.
-#
+
 # Input:
 # An integer number.
-#
+
 # Output:
 # Print "Even" if the number is divisible by 2.
 # Otherwise, print "Odd".
-#
+
 # Example:
 # Input:
 # 15
-#
+
 # Output:
 # Odd
 num = int(input("Enter your number: "))

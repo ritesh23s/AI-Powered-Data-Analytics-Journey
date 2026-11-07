@@ -2,6 +2,7 @@
 
 # Conditional statements are used to make decisions
 # in a program.
+
 # They allow the program to execute different blocks of code
 # based on whether a condition is True or False.
 

@@ -32,22 +32,22 @@
 
 # Question: 01).
 # Given two integers a and b, determine the greater number.
-#
+
 # Input:
 # Two integers a and b.
-#
+
 # Conditions:
 # If a is greater than b, print "A is greater".
 # Otherwise, print "B is greater or equal".
-#
+
 # Output:
 # Print the appropriate result.
-#
+
 # Example:
 # Input:
 # 15
 # 10
-#
+
 # Output:
 # A is greater
 

@@ -1,6 +1,7 @@
 # *************** IF STATEMENT ***************
 
 # if: The if statement is used to check a condition.
+
 # If the condition is True, the code inside the if block runs.
 # If the condition is False, the code inside the if block does not run.
 
@@ -24,7 +25,7 @@ if age >= 18:
 # Question: 01).
 # A website allows users to create an account only if
 # their age is 13 or above.
-#
+
 # Write a program that checks the user's age.
 # If the age is 13 or above, print:
 # "You can create an account."

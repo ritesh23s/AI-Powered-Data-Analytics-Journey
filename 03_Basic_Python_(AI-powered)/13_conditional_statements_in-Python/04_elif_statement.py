@@ -1,6 +1,7 @@
 # *************** ELIF STATEMENT ***************
 
 # elif: elif stands for "else if".
+
 # It is used to check multiple conditions one by one.
 # if and elif both together and also else
 
@@ -38,24 +39,24 @@ else:
 # Question: 01).
 # Given an integer temperature, determine the weather condition
 # based on the following rules.
-#
+
 # Input:
 # An integer temperature.
-#
+
 # Conditions:
 # temperature >= 35 → "Very Hot"
 # temperature >= 25 → "Hot"
 # temperature >= 15 → "Normal"
 # temperature >= 5  → "Cold"
 # otherwise          → "Very Cold"
-#
+
 # Output:
 # Print the appropriate weather condition.
-#
+
 # Example:
 # Input:
 # 28
-#
+
 # Output:
 # Hot
 

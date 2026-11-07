@@ -4,7 +4,7 @@
 # with multiple possible values.
 
 # Syntax:
-# match variable:
+# match variable_name:
 #     case value1:
 #         do something
 #     case value2:
@@ -23,6 +23,14 @@ match day:
         print("Tuesday")
     case 3:
         print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")   
+    case 6:
+        print("Saturday")
+    case 7:
+        print("Sunday")
     case _:
         print("Invalid day")
 
@@ -89,24 +97,24 @@ match operation:
 # Question: 01).
 # Given an integer representing a menu choice,
 # print the corresponding food item.
-#
+
 # Input:
 # An integer choice.
-#
+
 # Conditions:
 # 1 → "Pizza"
 # 2 → "Burger"
 # 3 → "Pasta"
 # 4 → "Sandwich"
 # Any other number → "Invalid choice"
-#
+
 # Output:
 # Print the corresponding food item.
-#
+
 # Example:
 # Input:
 # 3
-#
+
 # Output:
 # Pasta
 

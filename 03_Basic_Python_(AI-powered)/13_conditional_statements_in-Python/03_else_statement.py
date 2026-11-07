@@ -26,18 +26,18 @@ else:
 # Question: 01).
 # Given an integer number, determine whether the number is
 # positive or negative.
-#
+
 # Input:
 # An integer number.
-#
+
 # Output:
 # Print "Positive" if the number is greater than or equal to 0.
 # Otherwise, print "Negative".
-#
+
 # Example:
 # Input:
 # -5
-#
+
 # Output:
 # Negative
 

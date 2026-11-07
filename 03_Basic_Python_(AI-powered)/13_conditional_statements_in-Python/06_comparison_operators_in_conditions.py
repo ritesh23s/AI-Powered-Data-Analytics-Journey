@@ -30,19 +30,19 @@ if x != 5:
 
 # Question: 01).
 # Given two integers a and b, compare the two numbers.
-#
+
 # Input:
 # Two integers a and b.
-#
+
 # Output:
 # Print "Equal" if both numbers are equal.
 # Otherwise, print "Not Equal".
-#
+
 # Example:
 # Input:
 # 10
 # 10
-#
+
 # Output:
 # Equal
 

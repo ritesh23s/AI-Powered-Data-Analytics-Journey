@@ -1,7 +1,6 @@
 # *************** NESTED CONDITIONAL STATEMENTS ***************
 
-# A conditional statement can be placed inside another
-# conditional statement.
+# A conditional statement can be placed inside another conditional statement.
 # This is called a nested conditional statement.
 
 # Syntax:
@@ -21,11 +20,11 @@ age = 21
 if age >= 18:
 
     if age >= 60:
-        print("Senior citizen")
+        print("Senior citizen.")
     elif age >= 25:
-        print("Working age")
+        print("Working age.")
     else:
-        print("College going")
+        print("College going student.")
 
 else:
     print("Child")
@@ -39,25 +38,25 @@ else:
 # Question: 01).
 # Given the age and student status of a person, determine
 # whether the person is eligible for a student discount.
-#
+
 # Input:
 # An integer age and a student status ("yes" or "no").
-#
+
 # Conditions:
 # If age is 18 or above, check the student status.
 # If the person is a student, print "Student discount available".
 # Otherwise, print "No student discount".
-#
+
 # If age is below 18, print "Not eligible".
-#
+
 # Output:
 # Print the appropriate result based on the given conditions.
-#
+
 # Example:
 # Input:
 # Age: 21
 # Student status: yes
-#
+
 # Output:
 # Student discount available
 
@@ -73,4 +72,4 @@ if student_age >= 18:
     else:
         print("No student discount")
 else:
-    print("Not eligible")
+    print("Not eligible for discount")

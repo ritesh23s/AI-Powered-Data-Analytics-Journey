@@ -33,22 +33,22 @@ else:
 # Question: 01).
 # Given an integer number, check whether the number is zero,
 # positive, or negative.
-#
+
 # Input:
 # An integer number.
-#
+
 # Conditions:
 # If the number is zero, do nothing.
 # If the number is positive, print "Positive".
 # If the number is negative, print "Negative".
-#
+
 # Output:
 # Print the appropriate result according to the given conditions.
-#
+
 # Example:
 # Input:
 # -8
-#
+
 # Output:
 # Negative
 

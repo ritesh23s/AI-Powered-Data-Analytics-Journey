@@ -36,13 +36,16 @@ else:
 
 # ******************** NOT OPERATOR ********************
 
-if not age == 17:
-    print("You are not 17 years old.")
+if not age >= 18:
+    print("You are not 18 years old.")
+    print("You are not eligible for vote.")
 else:
-    print("You are 17 years old.")
+    print("You are 18 years old.")
+    print("You can vote.")
 
 # Output:
-# You are not 17 years old.
+# You are 18 years old.
+# You can vote.
 
 
 # ******************** PRACTICE QUESTION ********************
@@ -50,30 +53,30 @@ else:
 # Question: 01).
 # Given the age and country of a person, determine whether
 # the person is eligible to vote in India.
-#
+
 # Input:
 # An integer age and a country name.
-#
+
 # Conditions:
 # The person must be 18 or above AND the country must be "India".
-#
+
 # Output:
 # Print "Eligible to vote" if both conditions are True.
 # Otherwise, print "Not eligible to vote".
-#
+
 # Example:
 # Input:
 # Age: 25
 # Country: India
-#
+
 # Output:
 # Eligible to vote
 
-age = int(input("Enter your age: "))
-country = input("Enter your country: ")
-country = country.strip().lower()
+person_age = int(input("Enter your age: "))
+person_country = input("Enter your country: ")
+person_country = person_country.strip().lower()
 
-if age >= 18 and country == "india":
-    print("Eligible to vote")
+if person_age >= 18 and person_country == "india":
+    print("Eligible to vote. ")
 else:
-    print("Not eligible to vote")
+    print("Not eligible to vote. ")
