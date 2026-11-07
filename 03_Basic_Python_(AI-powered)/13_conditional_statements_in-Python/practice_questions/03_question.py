@@ -3,15 +3,15 @@
 # Question: 03).
 # Given the age, membership type, and purchase amount of a customer,
 # determine the discount they should receive.
-#
+
 # Input:
 # Three inputs:
 # 1. An integer age
 # 2. Membership type ("gold", "silver", or "regular")
 # 3. Purchase amount (integer or float)
-#
+
 # Conditions:
-#
+
 # 1. If the customer is a Gold member:
 #       - If purchase amount is 5000 or above:
 #           Print "20% Discount"
@@ -19,19 +19,19 @@
 #           Print "15% Discount"
 #       - Otherwise:
 #           Print "10% Discount"
-#
+
 # 2. If the customer is a Silver member:
 #       - If purchase amount is 5000 or above:
 #           Print "15% Discount"
 #       - Otherwise:
 #           Print "10% Discount"
-#
+
 # 3. If the customer is a Regular member:
 #       - If age is below 18:
 #           Print "5% Discount"
 #       - Otherwise:
 #           Print "No Discount"
-#
+
 # 4. If the membership type is not "gold", "silver",
 #    or "regular":
 #       Print "Invalid Membership"

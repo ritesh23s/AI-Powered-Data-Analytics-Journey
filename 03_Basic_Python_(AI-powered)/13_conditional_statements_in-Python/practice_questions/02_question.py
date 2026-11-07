@@ -4,19 +4,19 @@
 # Given the marks of a student and their attendance percentage,
 # determine whether the student passes, fails, or needs an
 # attendance shortage warning.
-#
+
 # Input:
 # Two integers:
 # 1. Marks obtained
 # 2. Attendance percentage
-#
+
 # Conditions:
-#
+
 # 1. If marks are 40 or above AND attendance is 75 or above:
 #       - If marks are 90 or above, print "Excellent"
 #       - If marks are 60 or above, print "Good"
 #       - Otherwise, print "Pass"
-#
+
 # 2. If marks are 40 or above BUT attendance is below 75:
 #       - Print "Attendance Shortage"
 #

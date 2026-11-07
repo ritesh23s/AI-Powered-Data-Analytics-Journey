@@ -3,22 +3,22 @@
 # Question: 04).
 # Given the age, country, account status, and transaction amount
 # of a user, determine whether the transaction should be allowed.
-#
+
 # Input:
 # The program should take:
 # 1. An integer age
 # 2. A country name
 # 3. Account status ("active" or "inactive")
 # 4. Transaction amount (integer or float)
-#
+
 # Conditions:
-#
+
 # 1. If the account is inactive:
 #       Print "Account Inactive"
-#
+
 # 2. If the account is active:
 #       Check the user's country and age.
-#
+
 #       If the user is from India AND age is 18 or above:
 #           - If transaction amount is 50,000 or below:
 #               Print "Transaction Approved"
@@ -28,10 +28,10 @@
 #                   Print "Transaction Approved with Verification"
 #               - Otherwise:
 #                   Print "Transaction Requires Verification"
-#
+
 #       If the user is from India BUT age is below 18:
 #           Print "Minor Account - Transaction Not Allowed"
-#
+
 #       If the user is NOT from India:
 #           - If transaction amount is 10,000 or below:
 #               Print "International Transaction Approved"

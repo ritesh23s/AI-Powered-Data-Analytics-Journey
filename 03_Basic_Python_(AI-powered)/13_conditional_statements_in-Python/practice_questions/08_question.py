@@ -1,10 +1,10 @@
 # ******************** FINAL CHALLENGE ********************
 
-# Question: 0 A8).
+# Question: 08).
 # A bank wants to determine whether a customer can make
 # a high-value transaction and what level of verification
 # is required.
-#
+
 # Input:
 # The program should take:
 # 1. Customer age
@@ -12,51 +12,42 @@
 # 3. Account status ("active" or "blocked")
 # 4. KYC status ("verified" or "unverified")
 # 5. Transaction amount (integer or float)
-#
-#
+
 # Conditions:
-#
+
 # 1. If the account is blocked:
 #       Print "Transaction Denied - Account Blocked"
-#
-#
+
 # 2. If the account is active but KYC is unverified:
 #       Print "Transaction Denied - KYC Verification Required"
-#
-#
+
 # 3. If the account is active AND KYC is verified:
-#
 #       If the customer is below 18:
 #           Print "Transaction Denied - Age Restriction"
-#
+
 #       Otherwise:
 #           Check the transaction amount.
-#
 #           If transaction amount is 25,000 or below:
 #               Print "Transaction Approved"
-#
+
 #           If transaction amount is above 25,000:
 #               Check the account type.
-#
 #               If the account is Premium:
-#
+
 #                   If transaction amount is 100,000 or below:
 #                       Print "Transaction Approved"
-#
+
 #                   Otherwise:
 #                       Check the customer's age.
-#
 #                       If age is 60 or above:
 #                           Print "Transaction Approved with Verification"
-#
 #                       Otherwise:
 #                           Print "Transaction Requires Manual Verification"
-#
+
 #               If the account is Regular:
-#
 #                   If transaction amount is 50,000 or below:
 #                       Print "Transaction Approved with Verification"
-#
+
 #                   Otherwise:
 #                       Print "Transaction Requires Manual Verification"
 # Solution
