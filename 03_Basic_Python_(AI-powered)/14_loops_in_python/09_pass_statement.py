@@ -23,6 +23,8 @@ print("LOOP ENDED PASS STETEMENT WORK SUCCESSFULLY USING WHILE LOOP")
 
 
 
+# Question: write a progtam to get sum of the entered number
+
 num = int(input("enter number to get sum: "))
 
 sum = 0

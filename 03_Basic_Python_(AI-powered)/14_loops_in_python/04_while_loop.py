@@ -39,11 +39,11 @@ while i <= 5:
 # 1. The total number of valid sales entries.
 # 2. The total sales amount.
 # 3. The average sales amount.
-#
+
 # Input:
 # Enter sales amounts one by one.
 # Enter -1 to stop entering data.
-#
+
 # Conditions:
 # -1 is only used to stop the input and should not be included in the calculations.
 # Sales amount cannot be negative except -1.
@@ -53,21 +53,21 @@ while i <= 5:
 # Output:
 # Display the number of sales entries, total sales amount,
 # and average sales amount.
-#
+
 # Example:
-#
+
 # Input:
 # 1200
 # 850
 # 1500
 # 950
 # -1
-#
+
 # Output:
 # Number of sales entries: 4
 # Total sales: 4500
 # Average sales: 1125.0
-#
+
 # Solution:
 
 sales = []
@@ -76,10 +76,12 @@ while True:
 
     if amount == "-1":
         break
+    elif amount.startswith("-") and amount[1:].isdigit():
+        print("Sales amount cannot be negative except -1")
     elif amount.isdigit():
         sales.append(int(amount)) 
     else:
-        print("Sales amount cannot be negative except -1")
+        print("Please enter a valid numeric amount.")
 
 
 if len(sales) > 0:
