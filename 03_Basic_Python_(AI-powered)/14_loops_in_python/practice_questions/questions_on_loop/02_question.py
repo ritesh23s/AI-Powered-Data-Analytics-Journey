@@ -4,20 +4,20 @@
 # A bank wants to analyze customer transactions.
 # The program should accept transaction amounts one by one
 # until the user enters 0 to stop the input.
-#
+
 # Calculate and display:
 # 1. Total number of valid transactions.
 # 2. Total amount of all valid transactions.
 # 3. Number of deposits.
 # 4. Number of withdrawals.
 # 5. Largest transaction amount.
-#
+
 # Input:
 # Enter transaction amounts one by one.
 # Positive values represent deposits.
 # Negative values represent withdrawals.
 # Enter 0 to stop entering transactions.
-#
+
 # Conditions:
 # 0 is used only to stop the input.
 
