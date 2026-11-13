@@ -63,7 +63,7 @@ print(another_avg)
 # 28.5
 
 
-# note:
+# ********** IMPORTANT NOT FOR DEFAULT VALUE FOR FUNCTION PARAMETER **********
 # 01). whenever we provide a default value for function parameter we should
 # provide default value from last parameter.
 

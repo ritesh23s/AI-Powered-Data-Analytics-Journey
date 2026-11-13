@@ -59,6 +59,7 @@ def grade_calculation(marks):
 
 student_marks = input("Enter your marks: ")
 student_marks = int(student_marks)
+
 if marks_validation(student_marks):
     student_grade = grade_calculation(student_marks)
     print(student_grade)

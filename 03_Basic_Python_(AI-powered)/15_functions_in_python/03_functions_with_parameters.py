@@ -1,6 +1,6 @@
 # *************** FUNCTIONS IN PYTHON ***************
 # ********* FUNCTIONS WITH PARAMETER *********
-# parameters allow you to pass data into a functions
+# parameters allow you to pass data into a functions.
 
 # Syntax:
 # def function_name(parameter_1, parameter_2,...):
@@ -29,6 +29,21 @@ name("Anup", "Das")
 # Anup Das
 
 
+# Example: 01A)
+def greet(name):
+    print(f"Good morning {name}")
+    print("How are you.?")
+
+greet("Amit")
+# Output:
+# Good morning Amit
+# How are you.?
+
+# Here we call greet function another time with another argument.  
+greet("Aman")
+# Output:
+# Good morning Aman
+# How are you.?
 
 # Example: 02).
 def add(a, b):
@@ -52,3 +67,5 @@ add(1454, 4577)
 def sum(a, b):
     pass
 sum(4, 5)
+
+print("function executed.")

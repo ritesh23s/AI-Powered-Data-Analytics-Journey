@@ -20,7 +20,7 @@ print(result)
 
 # Explanation:
 # Here, return sends the result of a + b back from the function.
-# So, result stores the returned value 55.
+# So, result stores the returned value of this function which is 55.
 
 # Example 02).
 # write a program to calculate the average of 3 numbers
@@ -31,3 +31,9 @@ print(avg)
 
 # Output:
 # 30.666666666666668
+
+# Here we call calc_average function another time for another three number
+another_avg = calc_average(12, 45, 485)
+print(another_avg)
+# Output:
+# 180.66666666666666

@@ -1,7 +1,8 @@
 # *************** FUNCTIONS IN PYTHON ***************
 # FUNCTION:
 # function is a block of statements that perform a specific task.
-# whenever it is callled
+# whenever it is callled.
+
 # they help make programs organized, readable, and easier to maintain.
 
 # There are two typs of functions:
