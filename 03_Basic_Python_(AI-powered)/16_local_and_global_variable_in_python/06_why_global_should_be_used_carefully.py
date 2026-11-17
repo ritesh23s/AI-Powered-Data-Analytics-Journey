@@ -1,0 +1,2 @@
+# ********** LOCAL AND GLOBAL VARIABLE IN PYTHON **********
+# ********** WHY GLOBAL SHOULD BE USED CAREFULLY **********
