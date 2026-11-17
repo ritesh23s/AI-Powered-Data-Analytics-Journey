@@ -29,7 +29,7 @@ print(user_2)
 
 # Here, 
 # we write age first and name second, but python match by parameter name
-# so value 21 use for age parameter and abc use for name parameter
+# so value 21 use for age parameter and "abc" use for name parameter
 
 
 
