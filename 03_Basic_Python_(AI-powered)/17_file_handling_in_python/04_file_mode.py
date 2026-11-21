@@ -18,3 +18,9 @@
 # 07). "wb"(Write binary): 
 # 08). "t"(Text mode(Default))
 # 09). "+": Open a disk file for updating(reading and writing)
+
+
+# # There are some another mode:
+# 01) "r+"
+# 02) "w+"
+# 03) "a+"
