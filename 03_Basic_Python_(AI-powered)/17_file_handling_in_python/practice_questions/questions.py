@@ -67,9 +67,55 @@ print("\n______Question 02______")
 
 # Solution:
 
+def check_line(value):
+    targeted_word = "learning"
+    line = 1
+    for line_text in value:
+        if targeted_word in line_text:
+            print(f"{targeted_word} occurs in line {line}")
+            break
+        line += 1
+    else:
+        print("-1")
+
+
+with open(file_path, "r") as f:
+    file_data_for_Q2 = f.readlines()
+
+check_line(file_data_for_Q2)
 
 
 
 # Question 03: 
 print("\n______Question 03______")
 # From a file containing numbers saperated by comma, print the count of even nember.
+
+# Solution:
+
+file_path_for_Q3 = "03_Basic_Python_(AI-powered)/17_file_handling_in_python/practice_questions/practice_01.txt"
+
+with open(file_path_for_Q3, "w") as f:
+    f.write("45, 2, 46, 13, 56, 78, 12, 11, 178, 7, 23, 53, 63, 61, 81, 78, 89, 86, 48, 85, 45, 42, 14, 12")
+
+with open(file_path_for_Q3, "r") as f:
+    file_data_for_Q3 = f.read()
+
+str_lst_for_Q3 = file_data_for_Q3.split(",")
+
+
+def even_count(value):
+    int_lst_for_Q3 = []
+    for text in value:
+        int_lst_for_Q3.append(int(text.strip()))
+
+    even_num = []
+    odd_num = []
+    for int_text in int_lst_for_Q3:
+        if int_text%2 == 0:
+            even_num.append(int_text)
+        else:
+            odd_num.append(int_text)
+    return len(even_num)
+
+result = even_count(str_lst_for_Q3)
+print(result)
