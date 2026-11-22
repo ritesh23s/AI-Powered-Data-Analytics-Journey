@@ -118,4 +118,4 @@ def even_count(value):
     return len(even_num)
 
 result = even_count(str_lst_for_Q3)
-print(result)
+print(f"There are {result} even numbers.!")
